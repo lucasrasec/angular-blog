@@ -1,0 +1,9 @@
+<div
+  class="card-container"
+  (mouseenter)="hoverCard(true)"
+  (mouseleave)="hoverCard(false)"
+  (click)="redirectAction()"
+>
+  <img [src]="game_info.img_url" />
+  <h4 class="card-title" *ngIf="hovered">{{ game_info.title }}</h4>
+</div>

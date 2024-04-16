@@ -1,0 +1,19 @@
+{
+  "workbench.iconTheme": "vscode-simpler-icons",
+  "workbench.sideBar.location": "right",
+  "editor.formatOnSave": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnPaste": true,
+  "workbench.colorTheme": "Deepdark Material Theme | Default Version",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "workbench.settings.applyToAllProfiles": [
+    "editor.tabSize",
+    "editor.defaultFormatter",
+    "editor.formatOnSave"
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.autofetch": true,
+  "cSpell.words": ["APIKEY", "Hilighliths", "metacritic", "Rawg"]
+}

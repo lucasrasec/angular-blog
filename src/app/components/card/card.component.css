@@ -1,0 +1,33 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+  }
+
+  .card-title {
+    width: 18.8%;
+    padding: 8px;
+    position: absolute;
+    font-size: small;
+    background: #000000;
+    background: linear-gradient(344deg, #000000 0%, rgba(0, 0, 0, 0.17) 80%);
+    background: -webkit-linear-gradient(
+      344deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0.17) 80%
+    );
+    background: -moz-linear-gradient(
+      344deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0.17) 80%
+    );
+  }
+}

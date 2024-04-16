@@ -1,0 +1,10 @@
+<div class="content">
+  <app-menu-bar></app-menu-bar>
+  <app-title page_title="LUCAS CESAR"></app-title>
+  <app-card-highlighted></app-card-highlighted>
+  <div class="cards">
+    <div class="card" *ngFor="let game of games_info">
+      <app-card [game_info]="game"></app-card>
+    </div>
+  </div>
+</div>
